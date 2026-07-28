@@ -3,9 +3,9 @@
         "mew": ["dom_inh"],
         "mewtwo": ["diff_breed"]
     },
-    "ran_weights": [3, 1],
+    "ran_weights": [4, 1],
     "in_weights": {
-        "mew": [1, 1],
+        "mew": [1, 4],
         "mewtwo": [1, 1]
     },
     "comment": [
