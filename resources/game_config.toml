@@ -504,7 +504,7 @@ dev_tools = false
 
 [clan_creation]
   # Set this to -1 for it to be infinite
-  rerolls = 3
+  rerolls = -1
 
 [graduation]
   # base possible experience gain for apprentices
@@ -653,7 +653,7 @@ dev_tools = false
 [fun]
   april_fools = false
   all_cats_are_newborn = false
-  newborns_can_roam = false
+  newborns_can_roam = true
   newborns_can_patrol = false
   always_halloween = false
 
