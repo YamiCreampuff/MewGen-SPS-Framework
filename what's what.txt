@@ -1,0 +1,5 @@
+mewgen basics:
+
+species1 = mew, dom_inh (dominant)
+species2 = mewtwo, rec_inh (receding), diff_breed (only breed with mew)
+
