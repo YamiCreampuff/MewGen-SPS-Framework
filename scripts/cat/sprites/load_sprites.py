@@ -232,8 +232,8 @@ class Sprites:
             layout = getattr(self, f"sheet_layout_{f}")
             if isinstance(self.size, int):
                 pass
-            elif width / layout[3] == height / layout[7]:
-                self.size = width / layout[3]
+            elif width / layout[0] == height / layout[1]:
+                self.size = width / layout[0]
             else:
                 self.size = 250  # default, what base clangen uses
                 print(f"lineart.png is not {layout}, falling back to {self.size}")
