@@ -235,7 +235,7 @@ class Sprites:
             elif width / layout[3] == height / layout[7]:
                 self.size = width / layout[3]
             else:
-                self.size = 50  # default, what base clangen uses
+                self.size = 250  # default, what base clangen uses
                 print(f"lineart.png is not {layout}, falling back to {self.size}")
                 print(
                     f"if you are a modder, please update sheet_layout in sprites/{f}/dicts/pose_sprite_data.json"
